@@ -30,7 +30,7 @@
     </ol>
 
     <!-- Pembuatan Tabel -->
-    <h2>Tabel</h2>
+    <h2 id="tabel">Tabel</h2>
     <table border="1">
         <thead>
             <tr>
@@ -62,9 +62,50 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUwCa9CAd1CzoTmoRbFpPhANxCSsCJp6sepQ&s"
     alt="Unair"/>
 
+    <!-- Manggil Link -->
     <h2>Link</h2>
-    <p>Ini adalah linkedin saya <a href="https://www.linkedin.com/in/ricky-arif-saputra/">Linkedin</a></p>
+    <p>Ini adalah linkedin saya <a href="https://www.linkedin.com/in/ricky-arif-saputra/" target="_blank">Linkedin</a></p>
     
+    <!-- Panggil html Lain -->
+    <a href="second.html"target="_blank">Blank</a>
+
+    <!-- Menuju Halaman tertentu -->
+    <a href="#tabel">Menuju Tabel</a>
+
+    <h1>Form</h1>
+    <form>
+        <label>Nama</label>
+        <input type="text" placeholder="Ricky Arif Saputra"/><br/>
+        <label>Umur</label>
+        <input type="number" min="0" max="100"/>
+        <br/>
+        <label>Jenis kelamin</label>
+        <input type="radio" value="male" name="Jenis Kelamin">Laki-laki
+        <input type="radio" value="female" name="Jenis Kelamin">Perempuan
+        <br/>
+        <label>Pasword</label>
+        <input type="password"/>
+        <br/>
+        <label>Pilih Mata Kuliah</label>
+        <select>
+            <option value="Matematika Diskrit">Matematika Diskrit</option>
+            <option value="Aljabar Linear">Aljabar Linear</option>
+            <option value="Statistika">Statistika</option>
+            <option value="Analisis Real">Analisis Real</option>
+        </select>
+        <br/>
+        <label>Komentar</label><br/>
+        <textarea 
+            rows="5"
+            cols="30"
+            placeholder="Tulis komentar anda di sini"></textarea>
+        <br/>
+        <input type="checkbox"/> Saya setuju dengan ini
+        <br/>
+        <input type="submit" value="Kirim"/>
+        <button>Send</button>
+    </form>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo fugiat cupiditate, iure ipsa quo et nam doloribus sit magni eos nesciunt harum? Id cum odio dolorem. Labore, architecto quae.</p>
 </body>
 </html>
